@@ -1,11 +1,8 @@
 "use strict";
 var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    }
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -26,6 +23,7 @@ var Smile_1 = require("./Smile");
 var Tongue_1 = require("./Tongue");
 var Twinkle_1 = require("./Twinkle");
 var Vomit_1 = require("./Vomit");
+var Pikachu_1 = require("./Pikachu");
 var options_1 = require("../../../options");
 var Mouth = /** @class */ (function (_super) {
     __extends(Mouth, _super);
@@ -39,6 +37,7 @@ var Mouth = /** @class */ (function (_super) {
             React.createElement(Disbelief_1.default, null),
             React.createElement(Eating_1.default, null),
             React.createElement(Grimace_1.default, null),
+            React.createElement(Pikachu_1.default, null),
             React.createElement(Sad_1.default, null),
             React.createElement(ScreamOpen_1.default, null),
             React.createElement(Serious_1.default, null),

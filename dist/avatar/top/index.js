@@ -1,11 +1,8 @@
 "use strict";
 var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    }
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -49,7 +46,10 @@ var WinterHat1_1 = require("./WinterHat1");
 var WinterHat2_1 = require("./WinterHat2");
 var WinterHat3_1 = require("./WinterHat3");
 var WinterHat4_1 = require("./WinterHat4");
+var KyleCap_1 = require("./KyleCap");
+var Spiderman_1 = require("./Spiderman");
 var options_1 = require("../../options");
+var Vader_1 = require("./Vader");
 var Top = /** @class */ (function (_super) {
     __extends(Top, _super);
     function Top() {
@@ -59,6 +59,9 @@ var Top = /** @class */ (function (_super) {
         var children = this.props.children;
         return (React.createElement(options_1.Selector, { defaultOption: LongHairStraight_1.default, option: options_1.TopOption },
             React.createElement(NoHair_1.default, null, children),
+            React.createElement(KyleCap_1.default, null, children),
+            React.createElement(Spiderman_1.default, null, children),
+            React.createElement(Vader_1.default, null, children),
             React.createElement(Eyepatch_1.default, null, children),
             React.createElement(Hat_1.default, null, children),
             React.createElement(Hijab_1.default, null, children),

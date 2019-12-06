@@ -12,6 +12,7 @@ import Smile from './Smile'
 import Tongue from './Tongue'
 import Twinkle from './Twinkle'
 import Vomit from './Vomit'
+import Pikachu from './Pikachu'
 import { MouthOption, Selector } from '../../../options'
 
 export default class Mouth extends React.Component {
@@ -23,6 +24,7 @@ export default class Mouth extends React.Component {
         <Disbelief />
         <Eating />
         <Grimace />
+        <Pikachu />
         <Sad />
         <ScreamOpen />
         <Serious />

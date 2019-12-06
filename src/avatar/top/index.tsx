@@ -35,7 +35,10 @@ import WinterHat1 from './WinterHat1'
 import WinterHat2 from './WinterHat2'
 import WinterHat3 from './WinterHat3'
 import WinterHat4 from './WinterHat4'
+import KyleCap from './KyleCap'
+import Spiderman from "./Spiderman";
 import { Selector, TopOption } from '../../options'
+import Vader from "./Vader";
 
 export default class Top extends React.Component {
   render () {
@@ -43,6 +46,9 @@ export default class Top extends React.Component {
     return (
       <Selector defaultOption={LongHairStraight} option={TopOption}>
         <NoHair>{children}</NoHair>
+        <KyleCap>{children}</KyleCap>
+        <Spiderman>{children}</Spiderman>
+        <Vader>{children}</Vader>
         <Eyepatch>{children}</Eyepatch>
         <Hat>{children}</Hat>
         <Hijab>{children}</Hijab>

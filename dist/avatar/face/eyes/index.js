@@ -1,11 +1,8 @@
 "use strict";
 var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    }
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -26,6 +23,7 @@ var Squint_1 = require("./Squint");
 var Surprised_1 = require("./Surprised");
 var Wink_1 = require("./Wink");
 var WinkWacky_1 = require("./WinkWacky");
+var Pikachu_1 = require("./Pikachu");
 var options_1 = require("../../../options");
 var Eyes = /** @class */ (function (_super) {
     __extends(Eyes, _super);
@@ -41,6 +39,7 @@ var Eyes = /** @class */ (function (_super) {
             React.createElement(EyeRoll_1.default, null),
             React.createElement(Happy_1.default, null),
             React.createElement(Hearts_1.default, null),
+            React.createElement(Pikachu_1.default, null),
             React.createElement(Side_1.default, null),
             React.createElement(Squint_1.default, null),
             React.createElement(Surprised_1.default, null),
