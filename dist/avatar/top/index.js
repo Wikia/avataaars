@@ -50,6 +50,8 @@ var KyleCap_1 = require("./KyleCap");
 var Spiderman_1 = require("./Spiderman");
 var options_1 = require("../../options");
 var Vader_1 = require("./Vader");
+var Songo_1 = require("./Songo");
+var Santa_1 = require("./Santa");
 var Top = /** @class */ (function (_super) {
     __extends(Top, _super);
     function Top() {
@@ -62,6 +64,8 @@ var Top = /** @class */ (function (_super) {
             React.createElement(KyleCap_1.default, null, children),
             React.createElement(Spiderman_1.default, null, children),
             React.createElement(Vader_1.default, null, children),
+            React.createElement(Songo_1.default, null, children),
+            React.createElement(Santa_1.default, null, children),
             React.createElement(Eyepatch_1.default, null, children),
             React.createElement(Hat_1.default, null, children),
             React.createElement(Hijab_1.default, null, children),

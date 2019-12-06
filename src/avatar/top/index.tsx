@@ -39,6 +39,8 @@ import KyleCap from './KyleCap'
 import Spiderman from "./Spiderman";
 import { Selector, TopOption } from '../../options'
 import Vader from "./Vader";
+import Songo from "./Songo";
+import Santa from "./Santa";
 
 export default class Top extends React.Component {
   render () {
@@ -49,6 +51,8 @@ export default class Top extends React.Component {
         <KyleCap>{children}</KyleCap>
         <Spiderman>{children}</Spiderman>
         <Vader>{children}</Vader>
+        <Songo>{children}</Songo>
+        <Santa>{children}</Santa>
         <Eyepatch>{children}</Eyepatch>
         <Hat>{children}</Hat>
         <Hijab>{children}</Hijab>
