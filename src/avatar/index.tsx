@@ -17,7 +17,7 @@ export interface Props {
 }
 
 export default class Avatar extends React.Component<Props> {
-  render () {
+  render() {
     const { avatarStyle } = this.props
     const circle = avatarStyle === AvatarStyle.Circle
     return (
@@ -57,18 +57,18 @@ export default class Avatar extends React.Component<Props> {
                   strokeWidth='1'
                   fillRule='evenodd'
                   transform='translate(12.000000, 40.000000)'>
-                  <mask id='mask-2' fill='white'>
+                  <mask id='mask-2' fill='#00d6d6'>
                     <use xlinkHref='#path-1' />
                   </mask>
                   <use
                     id='Circle-Background'
-                    fill='#E6E6E6'
+                    fill='#00d6d6'
                     xlinkHref='#path-1'
                   />
                   <g
                     id='Color/Palette/Blue-01'
                     mask='url(#mask-2)'
-                    fill='#65C9FF'>
+                    fill='#00d6d6'>
                     <rect id='🖍Color' x='0' y='0' width='240' height='240' />
                   </g>
                 </g>
