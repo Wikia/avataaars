@@ -41,9 +41,10 @@ import { Selector, TopOption } from '../../options'
 import Vader from "./Vader";
 import Songo from "./Songo";
 import Santa from "./Santa";
+import HarryPotter from "./HarryPotter";
 
 export default class Top extends React.Component {
-  render () {
+  render() {
     const { children } = this.props
     return (
       <Selector defaultOption={LongHairStraight} option={TopOption}>
@@ -53,6 +54,7 @@ export default class Top extends React.Component {
         <Vader>{children}</Vader>
         <Songo>{children}</Songo>
         <Santa>{children}</Santa>
+        <HarryPotter>{children}</HarryPotter>
         <Eyepatch>{children}</Eyepatch>
         <Hat>{children}</Hat>
         <Hijab>{children}</Hijab>

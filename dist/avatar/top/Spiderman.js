@@ -1,8 +1,11 @@
 "use strict";
 var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -19,7 +22,7 @@ var Spiderman = /** @class */ (function (_super) {
     }
     Spiderman.prototype.render = function () {
         return (React.createElement("g", null,
-            React.createElement("g", { id: "dupa", transform: 'scale(0.65, 0.6) translate(-287, 30)', style: { 'enable-background': 'new 0 0 1092 944' } },
+            React.createElement("g", { id: "dupa", transform: 'scale(0.65, 0.6) translate(-287, 30)', style: { 'enableBackground': 'new 0 0 1092 944' } },
                 React.createElement("style", { type: 'text/css' }, ".st0{fill:none;}\n  .st1{fill:#E30000;}\n  .st2{fill:#0921BA;}\n  .st3{font-family:'ArialMT';}\n  .st4{font-size:28px;}"),
                 React.createElement("path", { className: 'st0', d: 'M543.7,194.2c2.2-2.2,4.3-4.5,6.2-6.9c3.5-4.3,6.4-9.2,8.6-14.3c2.6-6,4.2-12.4,5.1-18.9c0.9-6.4,1-12.9,0-19.2c-0.7-3.8-1.7-7.6-2.8-11.3c-3.4,4.5-6.8,9-10.7,13c-4,4.1-8.6,7.7-13.3,11.1c-4.9,3.6-10,6.9-14.6,11c-3.1,2.8-6,5.8-8.7,9.1c-0.9,1.1-1.8,2.2-2.6,3.3c-1.1,1.4-1.4,3.2-0.7,4.9c0.8,2,1.6,3.9,2.7,5.7c1.3,2.2,3,4.2,4.9,5.9c2,1.8,4.2,3.3,6.6,4.5c2.8,1.5,5.9,2.7,9,3.3c2.3,0.4,4.5,0.4,6.9,0.4C541.5,195.7,542.8,195.1,543.7,194.2z' }),
                 React.createElement("path", { className: 'st0', d: 'M414.7,134.9c-1,6.3-0.9,12.8,0,19.2c0.9,6.5,2.5,12.9,5.1,18.9c2.2,5.1,5.1,10,8.6,14.3c1.9,2.4,4,4.7,6.2,6.9c0.9,1,2.2,1.5,3.5,1.5c2.3,0,4.6,0,6.9-0.4c3.1-0.5,6.2-1.8,9-3.3c2.4-1.3,4.6-2.7,6.6-4.5c1.9-1.7,3.6-3.7,4.9-5.9c1.1-1.8,1.9-3.7,2.7-5.7c0.7-1.7,0.4-3.5-0.7-4.9c-0.8-1.1-1.7-2.2-2.6-3.3c-2.7-3.2-5.6-6.3-8.7-9.1c-4.6-4-9.7-7.4-14.6-11c-4.7-3.4-9.3-7-13.3-11.1c-3.9-4-7.3-8.5-10.7-13C416.4,127.3,415.3,131.1,414.7,134.9z' }),
